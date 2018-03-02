@@ -27,3 +27,5 @@ mongoose.connect(DB_URI, (error) => {
 app.get("/", (req, res) => res.send("Hey"));
 routes(app);
 app.listen(3001, () => console.log("Here here here"));
+
+module.exports = app;
